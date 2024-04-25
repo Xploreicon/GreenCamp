@@ -6,9 +6,16 @@ const VideoContainer = styled.div`
 width: 100%;
 
 video{
-  width:85%;
+  width:100%;
   height: 100%;
   border-radius: 10px;
+}
+@media (max-width: 64em){
+min-width: 40vh;
+
+video{
+
+}
 }
 
 `

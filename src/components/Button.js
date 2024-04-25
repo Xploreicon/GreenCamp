@@ -12,7 +12,7 @@ outline: none;
 border:none;
 
 
-font-size: ${props => props.theme.fonstsm};
+font-size: ${props => props.theme.fontsm};
 padding: 0.9rem 2.3em;
 border-radius: 50px;
 cursor: pointer;
@@ -40,18 +40,18 @@ position: relative;
     transform: translate(-50%, -50%) scale(1);
     padding: 0.3rem;
 }
+
 `
 
 
 const Button = ({text, link}) => {
-    const linkStyles = {
-        color: '#fff', // Change the color to blue (you can use any valid color)
-        textDecoration: 'none', // Add an underline text decoration
-      };
+    // const linkStyles = {
+  
+    //   };
 
   return (
     <Btn >
-    <a style={linkStyles} href={link} aria-label={text} target="_blank" rel="noreferrer">
+    <a href={link} aria-label={text} target="_blank" rel="noreferrer">
         {text}
         </a> 
     </Btn>
