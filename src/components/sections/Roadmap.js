@@ -214,7 +214,7 @@ revealRefs.current.forEach( (el, index) => {
 )
 
   return (
-    <Section id="roadmap">
+    <Section id="roadmaps">
     <Title> What to know!</Title>
     <Container>
       <SvgContainer>
@@ -223,15 +223,18 @@ revealRefs.current.forEach( (el, index) => {
     <Items>
       <Item>&nbsp;</Item>
      <RoadMapItem addToRef={addToRefs} title="Greencamp is a talent and event management organization " subtext="with a mission to discover, nurture, and connect exceptional underground artists & entertainers to art & entertainment lovers, investors, and scouts." />
-     <RoadMapItem addToRef={addToRefs} title="this is title" subtext="this is subtext" />
-     <RoadMapItem addToRef={addToRefs} title="this is title" subtext="this is subtext" />
-     <RoadMapItem addToRef={addToRefs} title="this is title" subtext="this is subtext" />
-     <RoadMapItem addToRef={addToRefs} title="this is title" subtext="this is subtext" />
+     <RoadMapItem addToRef={addToRefs} title="Shows & Entertainment" subtext="We curate live shows for entertainment and lovers to come and have fun and discover new talents while at it." />
+     <RoadMapItem addToRef={addToRefs} title="Your Blown Guys" subtext="Musicians like Buju, Lady Donli, SGaWD, Laime, Mojo and other talented musicians have performed at Greencamp events.
+     " />
+     <RoadMapItem addToRef={addToRefs} title="We have a portfolio of creatives" subtext="Creatives like Blaqbonez, YKB, Logos Olori, Shayo Davids, Yusuf Sanni, and TrillXoe have been a part of this community as some point in their careers." />
+     <RoadMapItem addToRef={addToRefs} title="Other opportunities" subtext="You can find the love of your life at our curated gatherings and events.
+
+     " />
      
     </Items>
     </Container>
      <Title>
-     Press<br /> release
+     Gallery
    </Title>
     </Section>
   );

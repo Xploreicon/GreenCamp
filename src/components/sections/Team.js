@@ -4,12 +4,12 @@ import styled from 'styled-components'
 import img1 from '../../assets/Nfts/gcamp.jpg';
 import img2 from '../../assets/Nfts/gcamp-1.jpg';
 import img3 from '../../assets/Nfts/gcamp-2.jpg';
-import img4 from '../../assets/Nfts/gcamp-3.jpg';
-import img5 from '../../assets/Nfts/gcamp-4.jpg';
-import img6 from '../../assets/Nfts/gcamp-5.jpg';
-import img7 from '../../assets/Nfts/gcamp-6.jpg';
-import img8 from '../../assets/Nfts/gcamp-7.jpg';
-import img9 from '../../assets/Nfts/gcamp-8.jpg';
+// import img4 from '../../assets/Nfts/gcamp-3.jpg';
+// import img5 from '../../assets/Nfts/gcamp-4.jpg';
+// import img6 from '../../assets/Nfts/gcamp-5.jpg';
+// import img7 from '../../assets/Nfts/gcamp-6.jpg';
+// import img8 from '../../assets/Nfts/gcamp-7.jpg';
+// import img9 from '../../assets/Nfts/gcamp-8.jpg';
 import ConfettiComponent from '../Confetti';
 
 const Section = styled.section`
@@ -130,12 +130,12 @@ const Team = () => {
    <MemberComponent img={img1} name='Alaye hat' position=' $6'/>
    <MemberComponent img={img2} name='Alaye hat' position='$6'/>
    <MemberComponent img={img3} name='Alaye hat' position='$6'/>
-   <MemberComponent img={img4} name='Alaye hat' position='$6'/>
+   {/* <MemberComponent img={img4} name='Alaye hat' position='$6'/>
    <MemberComponent img={img5} name='Alaye hat' position='$6'/>
    <MemberComponent img={img6} name='Alaye hat' position='$6'/>
    <MemberComponent img={img7} name='Alaye hat' position='$6'/>
    <MemberComponent img={img8} name='Alaye hat' position='$6'/>
-   <MemberComponent img={img9} name='Alaye hat' position='$6'/>
+   <MemberComponent img={img9} name='Alaye hat' position='$6'/> */}
   </Container>
     </Section>
   );

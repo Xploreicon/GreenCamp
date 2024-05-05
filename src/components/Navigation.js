@@ -150,8 +150,8 @@ const scrollTo = (id) => {
         <Menu click={click}>
           <MenuItem onClick={() => scrollTo('home')}>Home</MenuItem>
           <MenuItem onClick={() => scrollTo('about')}>About</MenuItem> 
-          <MenuItem onClick={() => scrollTo('roadmaps')}>Roadmaps</MenuItem>
-          <MenuItem onClick={() => scrollTo('showcase')}>Press Release</MenuItem>
+          <MenuItem onClick={() => scrollTo('roadmaps')}>What to know</MenuItem>
+          <MenuItem onClick={() => scrollTo('showcase')}>Gallery</MenuItem>
           <MenuItem onClick={() => scrollTo('team')}>Get Merch</MenuItem>
           <MenuItem onClick={() => scrollTo('faq')}>Faq</MenuItem>
           <MenuItem>

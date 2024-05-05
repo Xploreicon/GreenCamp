@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components'
 import Banner from '../Banner'
-import Logo from '../Logo'
+import Banner2 from '../Banner2'
+import Logo2 from '../logo2'
 
 import Twitter from '../../Icons/Twitter'
 import Instagram from '../../Icons/Instagram'
@@ -127,9 +128,11 @@ const Footer = () => {
   return (
     <Section>
     <Banner />
+    <Banner2 />
     <Container>
+    
      <Left>
-      <Logo />
+      <Logo2 />
       <IconList>
   <a href="http://twitter.com" target="_blank" rel="noopener noreferrer">
     <Twitter />

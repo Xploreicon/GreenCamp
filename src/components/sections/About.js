@@ -8,7 +8,7 @@ import {dark} from  '../../styles/Themes';
 
 
 const Section = styled.section`
-min-height: 100vh;
+min-height: 110vh;
 width: 100%;
 background-color: ${props => props.theme.text};
 color: ${props => props.theme.body};
@@ -149,16 +149,45 @@ const About = () => {
       </Box>
       <Box>
         <Title>
-          Welcome To <br /> GreenCamp
+        Welcome to <br /> GreencampNG!
         </Title>
         <SubText>
-          GreenCamp creates a huge platform that discovers and connects exceptional underground artist and enterainers with true fans of art and entertainment as well as potential investors, sponsors and record labels.
+        A community of entertainment and art lovers, entertainers, and creatives in Nigeria.
+        </SubText>
+
+        <SubText>
+        Our missions are:
         </SubText>
         <SubTextLight>
-          GreenCamp intends to challenge the status quo that causes artists and enterainers withh genuine messages in Nigeria to go unnoticed        </SubTextLight>
+        To spotlight exceptional up-and-coming entertainers and creatives for entertainment and art lovers, potential investors, scouts, and other executives within the entertainment and art industry. 
+        <br />
+        To increase the quality of entertainment and art that reaches consumers
+        <br />
+        Contribute to the country’s economy by creating sustainable career paths and job opportunities within the entertainment and art sectors. For example, artist managers, content creators, promoters, etc.
+            </SubTextLight>
+
+            <SubText>
+            Feedback: 
+        </SubText>
+          <SubTextLight>
+          
+          “Greencamp introduced me to Seyi Vibes during the pandemic.” - Dami L.
+          <br />
+“I always have so much fun at Greencamp events.” - Attendee from Unilag.
+<br />
+“The first time I saw Buju perform was at Greencamp.” - Ola from Babcock.
+<br />
+“I met my current partner at Greencamp show.” - Amara & Great.
+
+
+             </SubTextLight>
+
+             <SubText>
+       Be part of the coolest youths!!
+        </SubText>
        <ButtonContainer>
        <ThemeProvider theme={dark}>
-         <Button text="JOIN OUR WHATSAPP" link='#'  style={{ color: '#202020 ' }} />
+         <Button text="JOIN THE COMMUNITY" link='#'  style={{ color: '#202020 ' }} />
           </ThemeProvider>
        </ButtonContainer>
       </Box>

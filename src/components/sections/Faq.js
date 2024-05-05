@@ -91,16 +91,16 @@ const Faq = () => {
     <Accordion title= " is green camp a weed festival?">
     greencamp is a an entertainment venture, where underground artiste come to perform to their audience putting them on the spotlight.
     </Accordion>
-    <Accordion title= " is green camp a weed festival?">
-    greencamp is a an entertainment venture, where underground artiste come to perform to their audience putting them on the spotlight.
+    <Accordion title= " i'm not an artiste or musician, why should i come?">
+    The event showcases these talents but its for every lover of music and art to attend.
     </Accordion>
-    <Accordion title= " is green camp a weed festival?">
-    greencamp is a an entertainment venture, where underground artiste come to perform to their audience putting them on the spotlight.
+    <Accordion title= " i usually dont know the artists, why should i come and watch people i don't know?">
+    to introduce good music and art that isn't dependent on the popularity of the performers and artistes. we also create playlists and drop them on audiomack, days to the event.
     </Accordion>
    </Box>
    <Box>
-   <Accordion title= " is green camp a weed festival?">
-    greencamp is a an entertainment venture, where underground artiste come to perform to their audience putting them on the spotlight.
+   <Accordion title= "where can i watch previous shows?">
+   watch our youtube to get a glimpse of it. @GreencampNG
     </Accordion>
     <Accordion title= " is green camp a weed festival?">
     greencamp is a an entertainment venture, where underground artiste come to perform to their audience putting them on the spotlight.
