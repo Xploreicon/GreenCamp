@@ -152,21 +152,25 @@ const About = () => {
         Welcome to <br /> GreencampNG!
         </Title>
         <SubText>
-        A community of entertainment and art lovers, entertainers, and creatives in Nigeria.
+        A non-profit, non-governmental entertainment and art organization discovering and Spotlighting EXCEPTIONAL Underground entertainers, creatives and artists. 
+
         </SubText>
 
         <SubText>
         Our missions are:
         </SubText>
         <SubTextLight>
-        To spotlight exceptional up-and-coming entertainers and creatives for entertainment and art lovers, potential investors, scouts, and other executives within the entertainment and art industry. 
+        - discovering and Spotlighting EXCEPTIONAL Underground entertainers, creatives and artists. 
         <br />
-        To increase the quality of entertainment and art that reaches consumers
+        - To increase the quality of entertainment and art that reaches the consumers.
         <br />
-        Contribute to the country’s economy by creating sustainable career paths and job opportunities within the entertainment and art sectors. For example, artist managers, content creators, promoters, etc.
+        - Contribute to the country’s economy by creating sustainable career paths and job opportunities within the entertainment and art sectors.
+        <br />
+        - To build a community of entertainment and art lovers around the world.
+
             </SubTextLight>
 
-            <SubText>
+            {/* <SubText>
             Feedback: 
         </SubText>
           <SubTextLight>
@@ -180,14 +184,14 @@ const About = () => {
 “I met my current partner at Greencamp show.” - Amara & Great.
 
 
-             </SubTextLight>
+             </SubTextLight> */}
 
              <SubText>
-       Be part of the coolest youths!!
+             Be part of the coolest Youths.
         </SubText>
        <ButtonContainer>
        <ThemeProvider theme={dark}>
-         <Button text="JOIN THE COMMUNITY" link='#'  style={{ color: '#202020 ' }} />
+         <Button text="Join the community" link='#'  style={{ color: '#202020 ' }} />
           </ThemeProvider>
        </ButtonContainer>
       </Box>

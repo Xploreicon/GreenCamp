@@ -146,7 +146,7 @@ const Banner = () => {
         <img src={img5} alt="Greencamp" />
         <img src={img6} alt="Greencamp" />
         </ImgContainer>
-        <Title>Join the <br /> Greencamp Team</Title>
+        <Title>Join the <br /> Greencamp Community</Title>
        <BtnContainer>
        <JoiNow>
         Join Now

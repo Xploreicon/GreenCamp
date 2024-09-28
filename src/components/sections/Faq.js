@@ -88,25 +88,25 @@ const Faq = () => {
      <Title>Faq</Title>
      <Container>
    <Box>
-    <Accordion title= " is green camp a weed festival?">
+    <Accordion title= " ✓	 How many events does Greencamp host each year?">Greencamp hosts a variety of events, including Greencamp shows that require registration, our paid annual Greencamp Festival, and the Greencamp Party.
     greencamp is a an entertainment venture, where underground artiste come to perform to their audience putting them on the spotlight.
     </Accordion>
-    <Accordion title= " i'm not an artiste or musician, why should i come?">
-    The event showcases these talents but its for every lover of music and art to attend.
+    <Accordion title= " ✓	Who can attend Greencamp events?">
+    Our events are open to every lover of entertainment and art who are ready to have a great time.
     </Accordion>
-    <Accordion title= " i usually dont know the artists, why should i come and watch people i don't know?">
+    <Accordion title= " ✓	i usually dont know the artists, why should i come and watch people i don't know?">
     to introduce good music and art that isn't dependent on the popularity of the performers and artistes. we also create playlists and drop them on audiomack, days to the event.
     </Accordion>
    </Box>
    <Box>
-   <Accordion title= "where can i watch previous shows?">
+   <Accordion title= "✓	where can i watch previous shows?">
    watch our youtube to get a glimpse of it. @GreencampNG
     </Accordion>
-    <Accordion title= " is green camp a weed festival?">
-    greencamp is a an entertainment venture, where underground artiste come to perform to their audience putting them on the spotlight.
+    <Accordion title= " ✓	Can I perform or showcase my talents at Greencamp events?">
+    Absolutely! To stay updated on performance opportunities, join the greencamp communities on social media.
     </Accordion>
-    <Accordion title= " is green camp a weed festival?">
-    greencamp is a an entertainment venture, where underground artiste come to perform to their audience putting them on the spotlight.
+    <Accordion title= " ✓	Is Greencamp only for musicians?">
+    Not at all! Greencamp is for all entertainers, artists and creatives
     </Accordion>
    </Box>
      </Container>

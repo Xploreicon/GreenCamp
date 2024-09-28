@@ -84,23 +84,23 @@ const TypeWriterText = () => {
       }}
   onInit={(typewriter) => {
     typewriter
-    .typeString('<span class="text-1">artists.</span>')
+    .typeString('<span class="text-1">artists, and entertainers,thru shows and the internet. </span>')
     .pauseFor(2000)
     .deleteAll()
-    .typeString('<span class="text-2">and entertainers.</span>')
-    .pauseFor(2000)
-    .deleteAll()
-    .typeString('<span class="text-3">thru shows and the internet.</span>')
-    .pauseFor(2000)
-    .deleteAll()
+    // .typeString('<span class="text-2">and entertainers.</span>')
+    // .pauseFor(2000)
+    // .deleteAll()
+    // .typeString('<span class="text-3">thru shows and the internet.</span>')
+    // .pauseFor(2000)
+    // .deleteAll()
     .start()
   }}
 />
 
     </Title>
-    <Subtitle> Are you ready to brace the spotlight? </Subtitle>
+    <Subtitle>Enjoy non stop music, discover exceptional underground entertainers and artists in Lagos.</Subtitle>
    <ButtonContainer>
-   <Button text="Explore" link="#about" />
+   <Button text="Get tickets" link="#about" />
    </ButtonContainer>
   </>
   );
