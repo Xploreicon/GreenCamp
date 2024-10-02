@@ -222,15 +222,27 @@ revealRefs.current.forEach( (el, index) => {
       </SvgContainer>
     <Items>
       <Item>&nbsp;</Item>
-     <RoadMapItem addToRef={addToRefs} title="Greencamp spotlights Talent through the internet [ Social media, music and video Streaming platforms] and Events.  " subtext="With A Mission To Discover & Connect Exceptional Underground Artists & Entertainers To Art & Entertainment Lovers, Investors, And Scouts.
-we curate live events for entertainment and art lovers to come, have fun, and discover new talents while at it
+     <RoadMapItem addToRef={addToRefs} title="Greencamp spotlights Talent through  the internet  and Events.  " subtext="
+We increase awareness for exceptional entertainment and art by curating playlists on streaming platforms, spotlighting via social media/newsletters and hosting videos of live events on Youtube." />
+  
+<RoadMapItem addToRef={addToRefs} title="Music and Video Streaming Platforms" subtext="GreenCamp curates playlists on music streaming platforms while also using video platforms such as YouTube,  to promote talents through live performance videos, interviews, and behind-the-scenes content. This combined approach helps artists reach new listeners, build a strong digital presence, and create memorable experiences for their audience." />
 
-GREENCAMP Shows Vs GREENCAMP Festival. 
+<RoadMapItem
+  addToRef={addToRefs}
+  title="Greencamp spotlights EXCEPTIONAL Artiste through Live Events: "
+  subtext={
+    <>
+      We curate live events for entertainment and art lovers to come, have fun, and discover new talents while at it. <br /><br />
+      
+      GREENCAMP Shows Vs GREENCAMP Festival.
 
-Greencamp shows spotlights entertainers only i.e Musicians, Djs, Dancers etc. 
+      Greencamp shows spotlight entertainers only, i.e., Musicians, DJs, Dancers, etc.
+      
+      Greencamp Festival spotlights exceptional entertainers, creatives, and artists.
+    </>
+  }
+/>
 
-Greencamp Festival spotlights exceptional entertainers, creatives ands artists." />
-     <RoadMapItem addToRef={addToRefs} title="Shows & Entertainment" subtext="We curate live shows for entertainment and lovers to come and have fun and discover new talents while at it." />
      <RoadMapItem addToRef={addToRefs} title="Affinity for Stars" subtext="
 
 Exceptional talents Like Buju, Lady Donli, SGaWD, Laime, Mojo Blaqbonez, YKB, Shayo Davids, Yusuf Sanni, And TrillXoe And Other Talented Musicians Have been a part of Greencamp community at a point in their careers. 
@@ -239,7 +251,8 @@ Other Opportunities.
 
 You Can Find The Love Of Your Life At Our Curated Gatherings And Events.
      " />
-     <RoadMapItem addToRef={addToRefs} title="More portfolio of creatives" subtext="Creatives like Blaqbonez, YKB, Logos Olori, Shayo Davids, Yusuf Sanni, and TrillXoe have been a part of this community as some point in their careers." />
+  
+    
      <RoadMapItem addToRef={addToRefs} title="Other opportunities" subtext="You can find the love of your life at our curated gatherings and events.
 
      " />

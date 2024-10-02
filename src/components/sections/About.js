@@ -130,11 +130,15 @@ margin: 1rem auto;
 display: flex;
 align-self: flex-start;
 
+
 @media (max-width: 64em){
   width:100%;
-
+    display:flex;
+    justify-content: center;
+    align-items-center;
   button{
     margin: 0 auto;
+   
   }
  }
 `
@@ -160,12 +164,12 @@ const About = () => {
         Our missions are:
         </SubText>
         <SubTextLight>
-        - discovering and Spotlighting EXCEPTIONAL Underground entertainers, creatives and artists. 
-        <br />
+        - Discovering and Spotlighting EXCEPTIONAL Underground entertainers, creatives and artists. 
+        <br /> <br />
         - To increase the quality of entertainment and art that reaches the consumers.
-        <br />
+        <br /> <br />
         - Contribute to the country’s economy by creating sustainable career paths and job opportunities within the entertainment and art sectors.
-        <br />
+        <br /> <br />
         - To build a community of entertainment and art lovers around the world.
 
             </SubTextLight>
@@ -191,7 +195,7 @@ const About = () => {
         </SubText>
        <ButtonContainer>
        <ThemeProvider theme={dark}>
-         <Button text="Join the community" link='#'  style={{ color: '#202020 ' }} />
+         <Button text="Join the community" link='https://greencamp.fanlink.tv/GC'  style={{ color: '#202020 ' }} />
           </ThemeProvider>
        </ButtonContainer>
       </Box>

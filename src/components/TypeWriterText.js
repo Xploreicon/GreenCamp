@@ -100,7 +100,7 @@ const TypeWriterText = () => {
     </Title>
     <Subtitle>Enjoy non stop music, discover exceptional underground entertainers and artists in Lagos.</Subtitle>
    <ButtonContainer>
-   <Button text="Get tickets" link="#about" />
+   <Button  link="https://tix.africa/discover/gcfestival" text="Get tickets" />
    </ButtonContainer>
   </>
   );

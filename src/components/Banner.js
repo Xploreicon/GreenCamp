@@ -147,11 +147,14 @@ const Banner = () => {
         <img src={img6} alt="Greencamp" />
         </ImgContainer>
         <Title>Join the <br /> Greencamp Community</Title>
-       <BtnContainer>
-       <JoiNow>
-        Join Now
-       </JoiNow>
-       </BtnContainer>
+        <BtnContainer>
+  <a href="https://greencamp.fanlink.tv/GC" target="_blank" rel="noopener noreferrer">
+    <JoiNow>
+      Join Now
+    </JoiNow>
+  </a>
+</BtnContainer>
+
     </Section>
   )
 }

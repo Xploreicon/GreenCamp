@@ -2,17 +2,36 @@ import React , { useRef } from 'react';
 import styled from 'styled-components'
 import  { keyframes } from 'styled-components';
 
-import img1 from '../../assets/Nfts/gcamp.jpg';
-import img2 from '../../assets/Nfts/gcamp-1.jpg';
-import img3 from '../../assets/Nfts/gcamp-2.jpg';
-import img4 from '../../assets/Nfts/gcamp-3.jpg';
-import img5 from '../../assets/Nfts/gcamp-4.jpg';
-import img6 from '../../assets/Nfts/gcamp-5.jpg';
-import img7 from '../../assets/Nfts/gcamp-6.jpg';
-import img8 from '../../assets/Nfts/gcamp-7.jpg';
-import img9 from '../../assets/Nfts/gcamp-8.jpg';
-import img10 from '../../assets/Nfts/gcamp-9.jpg';
-import ETH from   '../../assets/Nfts/IMG_0016.jpg';
+import img1 from '../../assets/Nfts/gcamp-31.jpg';
+import img2 from '../../assets/Nfts/gcamp-11.jpg';
+import img3 from '../../assets/Nfts/gcamp-12.jpg';
+import img4 from '../../assets/Nfts/gcamp-13.jpg';
+import img5 from '../../assets/Nfts/gcamp-14.jpg';
+import img6 from '../../assets/Nfts/gcamp-15.jpg';
+import img7 from '../../assets/Nfts/gcamp-16.jpg';
+import img8 from '../../assets/Nfts/gcamp-17.jpg';
+import img9 from '../../assets/Nfts/gcamp-18.jpg';
+import img10 from '../../assets/Nfts/gcamp-19.jpg';
+import img11 from '../../assets/Nfts/gcamp-21.jpg';
+import img12 from '../../assets/Nfts/gcamp-22.jpg';
+import img13 from '../../assets/Nfts/gcamp-23.jpg';
+import img14 from '../../assets/Nfts/gcamp-24.jpg';
+import img15 from '../../assets/Nfts/gcamp-25.jpg';
+import img16 from '../../assets/Nfts/gcamp-26.jpg';
+import img17 from '../../assets/Nfts/gcamp-27.jpg';
+import img18 from '../../assets/Nfts/gcamp-28.jpg';
+import img19 from '../../assets/Nfts/gcamp-29.jpg';
+import img20 from '../../assets/Nfts/gcamp-31.jpg';
+import img21 from '../../assets/Nfts/gcamp-32.jpg';
+import img22 from '../../assets/Nfts/gcamp-33.jpg';
+import img23 from '../../assets/Nfts/gcamp-34.jpg';
+import img24 from '../../assets/Nfts/gcamp-35.jpg';
+import img25 from '../../assets/Nfts/gcamp-20.jpg';
+import img26 from '../../assets/Nfts/gcamp-30.jpg';
+import img27 from '../../assets/Nfts/gcamp-36.jpg';
+import img28 from '../../assets/Nfts/gcamp-37.jpg';
+
+import ETH from   '../../assets/Nfts/green.jpg';
 
 
 
@@ -160,13 +179,33 @@ const Showcase = () => {
     <NftItem img={img3} number={654} price={1.5} passRef = {Row1Ref}/>
     <NftItem img={img4} number={654} price={1.5} passRef = {Row1Ref}/>
     <NftItem img={img5} number={654} price={1.5} passRef = {Row1Ref}/>
-    </Row>
-    <Row direction="reverse" ref={Row2Ref}> 
     <NftItem img={img6} number={654} price={1.5} passRef = {Row2Ref}/>
     <NftItem img={img7} number={654} price={1.5} passRef = {Row2Ref}/>
     <NftItem img={img8} number={654} price={1.5} passRef = {Row2Ref}/>
     <NftItem img={img9} number={654} price={1.5} passRef = {Row2Ref}/>
     <NftItem img={img10} number={654} price={1.5} passRef = {Row2Ref}/>
+    <NftItem img={img11} number={654} price={1.5} passRef = {Row1Ref}/>
+    <NftItem img={img12} number={654} price={1.5} passRef = {Row1Ref}/>
+    <NftItem img={img13} number={654} price={1.5} passRef = {Row1Ref}/>
+    <NftItem img={img14} number={654} price={1.5} passRef = {Row1Ref}/>
+    </Row>
+    <Row direction="reverse" ref={Row2Ref}> 
+
+    <NftItem img={img15} number={654} price={1.5} passRef = {Row1Ref}/>
+    <NftItem img={img16} number={654} price={1.5} passRef = {Row2Ref}/>
+    <NftItem img={img17} number={654} price={1.5} passRef = {Row2Ref}/>
+    <NftItem img={img18} number={654} price={1.5} passRef = {Row2Ref}/>
+    <NftItem img={img19} number={654} price={1.5} passRef = {Row2Ref}/>
+    <NftItem img={img20} number={654} price={1.5} passRef = {Row2Ref}/>
+    <NftItem img={img21} number={654} price={1.5} passRef = {Row1Ref}/>
+    <NftItem img={img22} number={654} price={1.5} passRef = {Row1Ref}/>
+    <NftItem img={img23} number={654} price={1.5} passRef = {Row1Ref}/>
+    <NftItem img={img24} number={654} price={1.5} passRef = {Row1Ref}/>
+    <NftItem img={img25} number={654} price={1.5} passRef = {Row2Ref}/>
+    <NftItem img={img26} number={654} price={1.5} passRef = {Row1Ref}/>
+    <NftItem img={img27} number={654} price={1.5} passRef = {Row1Ref}/>
+    <NftItem img={img28} number={654} price={1.5} passRef = {Row1Ref}/>
+  
     </Row>
     
    </Section>
